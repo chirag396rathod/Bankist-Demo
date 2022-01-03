@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bankist App | When Banking meets World</title>
+    <link rel="icon" href="./images/icon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="App.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <nav class="nav">
+        <img class="nav__logo" src="./images/logo.png" alt="" Designer="CR7" />
+        <div class="manu-box" aria-expanded="false"></div>
+        <ul class="nav__links manu" data-visible="false">
+          <li class="nav__item">
+            <a href="#section--1" class="nav__link">Features</a>
+          </li>
+          <li class="nav__item">
+            <a href="#section--2" class="nav__link">Operations</a>
+          </li>
+          <li class="nav__item">
+            <a href="#section--3" class="nav__link">Testimonials</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link nav__link--btn btn--show-model"
+              >Open Account</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="header__title">
+        <div class="header__info">
+          <h1>
+            When <span class="highlight">banking</span>meets<br /><span
+              class="highlight"
+              >minimalist</span
+            >
+          </h1>
+          <h4>A simpler banking experience for a simpler life.</h4>
+          <button class="btn--text btn--scroll-to">
+            Learn more &DownArrow;
+          </button>
+        </div>
+        <img
+          src="./images/hero.png"
+          class="header__img"
+          alt="Minimalist bank items"
+        />
+      </div>
+    </div>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Features</h2>
+        <h3 class="section__header">
+          Everything you need in a modern bank and more.
+        </h3>
+      </div>
+      <div class="features">
+        <div class="featurs-row">
+          <div class="featurs-cols">
+            <div class="features__img">
+              <img
+                src="./images/digital-lazy.jpg"
+                data-src="./images/digital.jpg"
+                alt="computer"
+                class="lazy-img"
+              />
+            </div>
+          </div>
+          <div class="featurs-cols features__title" id="featurs-tital">
+            <h5 class="features__header">100% digital bank</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+              alias sint quos? Accusantium a fugiat porro reiciendis saepe
+              quibusdam debitis ducimus.
+            </p>
+          </div>
+        </div>
+        <div class="featurs-row">
+          <div class="featurs-cols">
+            <div class="features__img">
+              <img
+                src="./images/grow-lazy.jpg"
+                data-src="./images/grow.jpg"
+                alt="computer"
+                class="lazy-img"
+              />
+            </div>
+          </div>
+          <div class="featurs-cols features__title">
+            <h5 class="features__header">Watch your money grow</h5>
+            <p>
+              Nesciunt quos autem dolorum voluptates cum dolores dicta fuga
+              inventore ab? Nulla incidunt eius numquam sequi iste pariatur
+              quibusdam !
+            </p>
+          </div>
+        </div>
+        <div class="featurs-row">
+          <div class="featurs-cols">
+            <div class="features__img">
+              <img
+                src="./images/card-lazy.jpg"
+                data-src="./images/card.jpg"
+                alt="computer"
+                class="lazy-img"
+              />
+            </div>
+          </div>
+          <div class="featurs-cols features__title">
+            <h5 class="features__header">Free debit card included</h5>
+            <p>
+              Quasi, fugit in cumque cupiditate reprehenderit debitis animi enim
+              eveniet consequatur odit quam quos possimus assumenda dicta fuga
+              inventore ab.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Operations</h2>
+        <h3 class="section__header">
+          Everything as simple as possible, but no simpler.
+        </h3>
+      </div>
+      <div class="operations">
+        <div class="oparation__tab--container">
+          <button class="btn_tab oparation__tab oparation__tab--1" data-tab="1">
+            <span>01</span>Instant Transfers</button
+          ><button
+            class="btn_tab oparation__tab oparation__tab--2"
+            data-tab="2"
+          >
+            <span>02</span>Instant Loans</button
+          ><button
+            class="btn_tab oparation__tab oparation__tab--3"
+            data-tab="3"
+          >
+            <span>03</span>Instant Closing
+          </button>
+        </div>
+        <div
+          class="opration_content opration_content--1 opration_content--active"
+        >
+          <div class="opration--icon operation__icon--1">
+            <img src="./images/file_upload_black_24dp.svg" alt="" />
+          </div>
+          <div class="opration_content__All">
+            <h5 class="opration_content--header">
+              Tranfser money to anyone, instantly ! No fees, no BS.
+            </h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+        <div class="opration_content opration_content--2">
+          <div class="opration--icon operation__icon--2">
+            <img src="./images/manage_accounts_black_24dp.svg" alt="" />
+          </div>
+          <div class="opration_content__All">
+            <h5 class="opration_content--header">
+              Buy a home or make your dreams come true, with instant loans.
+            </h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+        <div class="opration_content opration_content--3">
+          <div class="opration--icon operation__icon--3">
+            <img src="./images/house_black_24dp.svg" alt="" />
+          </div>
+          <div class="opration_content__All">
+            <h5 class="opration_content--header">
+              No longer need your account? No problem ! Close it instantly.
+            </h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- < !-- < !--NOTE: THIS SECTION FOR RESPONSIVE PURPOSE -->
+    <div class="opration__row">
+      <div class="opration__col">
+        <h2>01 Instant Transfers</h2>
+        <div class="opration_content--icon__res">
+          <img src="./images/file_upload_black_24dp.svg" alt="" />
+        </div>
+        <h5>→ Tranfser money to anyone, instantly ! No fees, no BS.</h5>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+      </div>
+      <div class="opration__col">
+        <h2>02 Instant Loans</h2>
+        <div class="opration_content--icon__res">
+          <img src="./images/house_black_24dp.svg" alt="" />
+        </div>
+        <h5>→ Buy a home or make your dreams come true, with instant loans.</h5>
+        <p>
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est
+          laborum.
+        </p>
+      </div>
+      <div class="opration__col">
+        <h2>01 Instant Transfers</h2>
+        <div class="opration_content--icon__res">
+          <img src="./images/manage_accounts_black_24dp.svg" alt="" />
+        </div>
+        <h5>→ No longer need your account? No problem ! Close it instantly.</h5>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+      </div>
+    </div>
+    <section class="section" id="section--3">
+      <div class="section__title">
+        <h2 class="section__description">Not sure yet?</h2>
+        <h3 class="section__header">
+          Millions of Bankists are already making their lifes simpler.
+        </h3>
+      </div>
+      <div class="slider">
+        <div class="slide slide--1">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Best financial decision ever !</h5>
+            <blockquote class="testimonial__text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Accusantium quas quisquam non? Quas voluptate nulla minima
+              deleniti optio ullam nesciunt, numquam corporis et asperiores
+              laboriosam sunt, praesentium suscipit blanditiis. Necessitatibus
+              id alias reiciendis, perferendis facere pariatur dolore veniam
+              autem esse non voluptatem saepe provident nihil molestiae.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="images/user-3.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Aarav Lynn</h6>
+              <p class="testimonial__location">San Francisco, USA</p>
+            </address>
+          </div>
+        </div>
+        <div class="slide slide--2">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              The last step to becoming a complete minimalist
+            </h5>
+            <blockquote class="testimonial__text">
+              Quisquam itaque deserunt ullam, quia ea repellendus provident,
+              ducimus neque ipsam modi voluptatibus doloremque, corrupti
+              laborum. Incidunt numquam perferendis veritatis neque repellendus.
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo
+              deserunt exercitationem deleniti.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="images/user-2.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Miyah Miles</h6>
+              <p class="testimonial__location">London, UK</p>
+            </address>
+          </div>
+        </div>
+        <div class="slide slide--3">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Finally free from old-school banks
+            </h5>
+            <blockquote class="testimonial__text">
+              Debitis, nihil sit minus suscipit magni aperiam vel tenetur
+              incidunt commodi architecto numquam omnis nulla autem,
+              necessitatibus blanditiis modi similique quidem. Odio aliquam
+              culpa dicta beatae quod maiores ipsa minus consequatur error sunt,
+              deleniti saepe aliquid quos inventore sequi. Necessitatibus id
+              alias reiciendis, perferendis facere.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="images/user-1.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Francisco Gomes</h6>
+              <p class="testimonial__location">Lisbon, Portugal</p>
+            </address>
+          </div>
+        </div>
+        <!--
+        <div class="slide"><img src="images/img-1.jpg" alt="Photo 1" /></div>
+        <div class="slide"><img src="images/img-2.jpg" alt="Photo 2" /></div>
+        <div class="slide"><img src="images/img-3.jpg" alt="Photo 3" /></div>
+        <div class="slide"><img src="images/img-4.jpg" alt="Photo 4" /></div>
+        --><button class="slider__btn slider__btn--left">&larr;</button
+        ><button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <footer class="footer__Area">
+      <div class="footer__head">
+        <h1>
+          The best day to join Bankist was one year ago. The second best is
+          today !
+        </h1>
+        <button class="btn btn--show-model">
+          Open your free account today !
+        </button>
+      </div>
+      <ul class="footer__nav__area">
+        <li class="footer__item"><a href="#" class="footer__link">About</a></li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Terms of use</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Privacy</a>
+        </li>
+        <li class="footer__item"><a href="#" class="footer__link">blog</a></li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">careers</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Policy</a>
+        </li>
+      </ul>
+      <div class="footer__img"><img src="./images/icon.png" alt="" /></div>
+      <div class="footer__copy">© Copyright by Chirag Rathod.</div>
+    </footer>
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Open your bank account <br />in just
+        <span class="highlight">5 minutes</span>
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label><input type="text" /><label>Last Name</label
+        ><input type="text" /><label>Email Address</label
+        ><input type="email" /><button class="btn">Next step &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+  </body>
+</html>
